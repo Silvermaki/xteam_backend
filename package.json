@@ -1,0 +1,35 @@
+{
+  "name": "backend-makoto",
+  "version": "1.0.0",
+  "description": "Backend Makoto App",
+  "main": "server",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "angular",
+    "hapi",
+    "node",
+    "bootstrap",
+    "scaffold",
+    "postgres"
+  ],
+  "author": "Makoto Katsumata",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "engines": {
+    "node": "^4.2.1"
+  },
+  "dependencies": {
+    "hapi": "^11.1.0",
+    "hapi-auth-cookie": "^6.0.0",
+    "inert": "^3.2.0",
+    "pg-promise": "^5.6.4"
+  }
+}
